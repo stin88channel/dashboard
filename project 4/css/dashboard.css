@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: rgb(212, 212, 212);
+}
+
+.wrapper {
+    margin: auto;
+    display: flex;
+}
+
+.sidebar {
+    width: 100px;
+    height: 100vh;
+    background: #fff;
+}
+
+.sidebar ul {
+    margin-top: 50px;
+}
+
+.sidebar ul li {
+    list-style: none;
+    text-align: center;
+}
+
+.sidebar ul li i {
+    margin: 20px;
+    font-size: 22px;
+    cursor: pointer;
+    color: rgb(83, 82, 82);
+}
+
+.sidebar li:hover, li.active {
+    border-right: 3px solid rgb(83, 82, 82);
+}
+
+/* main */
+
+.head {
+    display: flex;
+    padding: 20px 30px;
+}
+
+.head-title span {
+    font-size: 14px;
+    color: rgb(151, 151, 151);
+}
+
+.head-search {
+    width: 400px;
+    margin-left: 70%;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 7px 13px;
+    border-radius: 15px;
+}
+
+/* card */
+
+.card-board {
+    display: flex;
+    padding: 15px 40px;
+}
+
+.card {
+    width: 230px;
+    height: 160px;
+    padding: 20px;
+    margin: 40px;
+    background: #fff;
+    border-right: 20px;
+    border-radius: 10px;
+}
+
+.card-icon {
+    display: flex;
+}
+
+.card-icon i {
+    margin: 15px 0;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 12.5rem;
+    color: rgb(83, 82, 82);
+}
+
+.card span {
+    font-size: 12px;
+    color: rgb(151, 151, 151);
+}
+
+.card h5 {
+    margin-top: 5px;
+}
+
+/* Balance */
+
+.balance {
+    width: 87%;
+    margin: 0 75px;
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.balance-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topic {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.balance-details li {
+    list-style: none;
+    margin: 8px 0;
+}
+
+.balance-details li a {
+    font-size: 18px;
+    color: #333;
+    font-weight: 400;
+    text-decoration: none;
+}
