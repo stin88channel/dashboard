@@ -1,0 +1,2 @@
+# dashboard
+admin panel / dashboard
